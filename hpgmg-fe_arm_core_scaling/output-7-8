@@ -1,0 +1,327 @@
+Finite Element FAS Performance Sampler on process grid [1 1 7] = 7
+Max memory per MPI rank: 0.007864 GB
+Small Test G[   16   16   24]
+Q2 G[   16   16   24] P[  1  1  7]  6.296e-02 s    6.232772 GF    0.846773 MEq/s
+Large Test G[   32   32   64]
+Q2  0 e_max 9.84e-01(0.0) e_L2 1.00e+00(0.0) r_2 6.39e-20(0.0) G[    1    1    2] L[   1   1   2] P[  1  1  1]
+Q2  1 e_max 3.17e-01(1.6) e_L2 3.05e-01(1.7) r_2 1.11e-02(0.0) G[    2    2    4] L[   2   2   2] P[  1  1  2]
+Q2  2 e_max 7.49e-02(2.1) e_L2 4.78e-02(2.7) r_2 7.80e-03(0.5) G[    4    4    8] L[   4   4   2] P[  1  1  4]
+Q2  3 e_max 1.15e-02(2.7) e_L2 6.30e-03(2.9) r_2 4.18e-03(0.9) G[    8    8   16] L[   8   8   3] P[  1  1  7]
+Q2  4 e_max 1.45e-03(3.0) e_L2 7.96e-04(3.0) r_2 1.67e-03(1.3) G[   16   16   32] L[  16  16   5] P[  1  1  7]
+Q2  5 e_max 1.79e-04(3.0) e_L2 9.97e-05(3.0) r_2 7.10e-04(1.2) G[   32   32   64] L[  32  32  10] P[  1  1  7]
+Q2 G[   32   32   64] P[  1  1  7]  6.811e-01 s    7.949024 GF    0.800165 MEq/s
+Max memory per MPI rank: 0.026374 GB
+Starting performance sampling
+Q2 G[   16   16   24] P[  1  1  7]  6.239e-02 s    6.293995 GF    0.855091 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.325e-02 s    6.199882 GF    0.842533 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.113e-02 s    6.415651 GF    0.871855 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.227e-02 s    6.296928 GF    0.855722 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.161e-02 s    6.371817 GF    0.865899 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.127e-02 s    6.400069 GF    0.869738 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.126e-02 s    6.400890 GF    0.869849 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.125e-02 s    6.402159 GF    0.870022 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.131e-02 s    6.401960 GF    0.869995 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.136e-02 s    6.392443 GF    0.868702 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.139e-02 s    6.386122 GF    0.867843 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.129e-02 s    6.397980 GF    0.869454 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.122e-02 s    6.403926 GF    0.870262 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.135e-02 s    6.398080 GF    0.869468 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.124e-02 s    6.403204 GF    0.870164 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.126e-02 s    6.400591 GF    0.869809 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.128e-02 s    6.403005 GF    0.870137 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.132e-02 s    6.393708 GF    0.868873 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.126e-02 s    6.398925 GF    0.869582 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.475e-02 s    6.061868 GF    0.823778 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.182e-02 s    6.343324 GF    0.862027 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.251e-02 s    6.271678 GF    0.852290 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.161e-02 s    6.365315 GF    0.865015 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.142e-02 s    6.384562 GF    0.867631 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.140e-02 s    6.385280 GF    0.867728 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.144e-02 s    6.380926 GF    0.867136 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.130e-02 s    6.395248 GF    0.869083 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.126e-02 s    6.400890 GF    0.869849 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.129e-02 s    6.395471 GF    0.869113 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.134e-02 s    6.394552 GF    0.868988 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.132e-02 s    6.394850 GF    0.869029 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.135e-02 s    6.391326 GF    0.868550 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.134e-02 s    6.397061 GF    0.869329 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.135e-02 s    6.392046 GF    0.868648 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.132e-02 s    6.395074 GF    0.869059 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.129e-02 s    6.396837 GF    0.869299 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.131e-02 s    6.397682 GF    0.869414 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.142e-02 s    6.381544 GF    0.867220 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.490e-02 s    6.042098 GF    0.821091 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.290e-02 s    6.233249 GF    0.847068 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.149e-02 s    6.375739 GF    0.866432 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.148e-02 s    6.378134 GF    0.866757 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.144e-02 s    6.378850 GF    0.866854 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.142e-02 s    6.387484 GF    0.868028 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.131e-02 s    6.396117 GF    0.869201 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.138e-02 s    6.388302 GF    0.868139 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.131e-02 s    6.394453 GF    0.868975 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.136e-02 s    6.390905 GF    0.868493 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.128e-02 s    6.398602 GF    0.869539 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.141e-02 s    6.385899 GF    0.867812 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.133e-02 s    6.393609 GF    0.868860 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.128e-02 s    6.399024 GF    0.869596 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.135e-02 s    6.393088 GF    0.868789 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.136e-02 s    6.391426 GF    0.868563 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.138e-02 s    6.388079 GF    0.868108 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.289e-02 s    6.234051 GF    0.847177 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.351e-02 s    6.173180 GF    0.838905 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.155e-02 s    6.370683 GF    0.865744 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.248e-02 s    6.273972 GF    0.852602 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.140e-02 s    6.387459 GF    0.868024 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.150e-02 s    6.374924 GF    0.866321 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.130e-02 s    6.397135 GF    0.869339 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.139e-02 s    6.394453 GF    0.868975 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.131e-02 s    6.395173 GF    0.869073 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.133e-02 s    6.392864 GF    0.868759 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.154e-02 s    6.372112 GF    0.865939 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.139e-02 s    6.388698 GF    0.868193 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.133e-02 s    6.392244 GF    0.868675 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.138e-02 s    6.387038 GF    0.867967 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.141e-02 s    6.384142 GF    0.867573 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.137e-02 s    6.390384 GF    0.868422 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.134e-02 s    6.391426 GF    0.868563 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.131e-02 s    6.396614 GF    0.869268 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.129e-02 s    6.396514 GF    0.869255 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.372e-02 s    6.154495 GF    0.836366 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.300e-02 s    6.222674 GF    0.845631 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.255e-02 s    6.269171 GF    0.851950 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.151e-02 s    6.374924 GF    0.866321 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.161e-02 s    6.363544 GF    0.864774 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.135e-02 s    6.391723 GF    0.868604 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.129e-02 s    6.395272 GF    0.869086 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.131e-02 s    6.395570 GF    0.869127 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.137e-02 s    6.387162 GF    0.867984 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.134e-02 s    6.391500 GF    0.868573 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.132e-02 s    6.393584 GF    0.868857 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.153e-02 s    6.373271 GF    0.866096 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.155e-02 s    6.371102 GF    0.865801 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.140e-02 s    6.384340 GF    0.867600 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.129e-02 s    6.396937 GF    0.869312 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.144e-02 s    6.389318 GF    0.868277 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.138e-02 s    6.384463 GF    0.867617 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.133e-02 s    6.392145 GF    0.868661 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.276e-02 s    6.255385 GF    0.850076 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.375e-02 s    6.158453 GF    0.836903 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.283e-02 s    6.237805 GF    0.847687 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.152e-02 s    6.373789 GF    0.866167 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.139e-02 s    6.389863 GF    0.868351 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.144e-02 s    6.389442 GF    0.868294 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.134e-02 s    6.391128 GF    0.868523 MEq/s
+Q2 G[   16   16   24] P[  1  1  7]  6.129e-02 s    6.397881 GF    0.869441 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.796e-02 s    7.635812 GF    1.040710 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.716e-02 s    7.725972 GF    1.053286 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.705e-02 s    7.737611 GF    1.054872 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.707e-02 s    7.737254 GF    1.054824 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.724e-02 s    7.717484 GF    1.052128 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.708e-02 s    7.736209 GF    1.054681 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.702e-02 s    7.740361 GF    1.055247 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.704e-02 s    7.738271 GF    1.054962 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  7.020e-02 s    7.392881 GF    1.007875 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.717e-02 s    7.724355 GF    1.053065 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.741e-02 s    7.696320 GF    1.049243 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.721e-02 s    7.719864 GF    1.052453 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.695e-02 s    7.751685 GF    1.056791 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.702e-02 s    7.740609 GF    1.055281 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.714e-02 s    7.729427 GF    1.053757 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.703e-02 s    7.738656 GF    1.055015 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.706e-02 s    7.736676 GF    1.054745 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.706e-02 s    7.736099 GF    1.054666 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.703e-02 s    7.737364 GF    1.054839 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.709e-02 s    7.732418 GF    1.054164 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.706e-02 s    7.736786 GF    1.054760 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.700e-02 s    7.745564 GF    1.055957 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.701e-02 s    7.740829 GF    1.055311 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.701e-02 s    7.743003 GF    1.055607 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.697e-02 s    7.745096 GF    1.055893 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.886e-02 s    7.537660 GF    1.027613 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.736e-02 s    7.699177 GF    1.049633 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.738e-02 s    7.700647 GF    1.049833 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.707e-02 s    7.733791 GF    1.054352 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.704e-02 s    7.736676 GF    1.054745 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.705e-02 s    7.736786 GF    1.054760 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.699e-02 s    7.744628 GF    1.055829 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.699e-02 s    7.744986 GF    1.055878 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.709e-02 s    7.735769 GF    1.054621 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.711e-02 s    7.731156 GF    1.053992 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.707e-02 s    7.738408 GF    1.054981 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.699e-02 s    7.746722 GF    1.056114 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.706e-02 s    7.737254 GF    1.054824 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.715e-02 s    7.725177 GF    1.053177 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.708e-02 s    7.734258 GF    1.054415 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.710e-02 s    7.733352 GF    1.054292 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.700e-02 s    7.741765 GF    1.055439 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.886e-02 s    7.537425 GF    1.027581 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.855e-02 s    7.568651 GF    1.031838 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.713e-02 s    7.731595 GF    1.054052 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.709e-02 s    7.732418 GF    1.054164 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.710e-02 s    7.732171 GF    1.054131 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.703e-02 s    7.738051 GF    1.054932 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.711e-02 s    7.732638 GF    1.054194 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.701e-02 s    7.739343 GF    1.055108 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.701e-02 s    7.742315 GF    1.055514 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.702e-02 s    7.741875 GF    1.055454 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.820e-02 s    7.607916 GF    1.037191 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.701e-02 s    7.740141 GF    1.055217 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.712e-02 s    7.730936 GF    1.053962 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.713e-02 s    7.728494 GF    1.053629 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.702e-02 s    7.741875 GF    1.055454 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.701e-02 s    7.742563 GF    1.055547 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.884e-02 s    7.536565 GF    1.027464 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.891e-02 s    7.530883 GF    1.026689 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.859e-02 s    7.564129 GF    1.031221 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.706e-02 s    7.734396 GF    1.054434 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.708e-02 s    7.732885 GF    1.054228 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.711e-02 s    7.729674 GF    1.053790 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.705e-02 s    7.736209 GF    1.054681 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.696e-02 s    7.746501 GF    1.056084 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.711e-02 s    7.732528 GF    1.054179 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.698e-02 s    7.747300 GF    1.056193 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.697e-02 s    7.747879 GF    1.056272 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.696e-02 s    7.746942 GF    1.056144 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.709e-02 s    7.731046 GF    1.053977 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.702e-02 s    7.739893 GF    1.055183 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.698e-02 s    7.746611 GF    1.056099 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.697e-02 s    7.748816 GF    1.056400 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.706e-02 s    7.734506 GF    1.054449 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.895e-02 s    7.521389 GF    1.025395 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.864e-02 s    7.560059 GF    1.030667 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.747e-02 s    7.691074 GF    1.048528 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.713e-02 s    7.730552 GF    1.053910 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.701e-02 s    7.741985 GF    1.055469 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.705e-02 s    7.739563 GF    1.055138 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.707e-02 s    7.736566 GF    1.054730 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.695e-02 s    7.748927 GF    1.056415 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.698e-02 s    7.745454 GF    1.055942 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.704e-02 s    7.740499 GF    1.055266 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.711e-02 s    7.729098 GF    1.053712 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.695e-02 s    7.747769 GF    1.056257 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.701e-02 s    7.740609 GF    1.055281 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.693e-02 s    7.751933 GF    1.056825 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.707e-02 s    7.735989 GF    1.054651 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.720e-02 s    7.719180 GF    1.052360 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.702e-02 s    7.743719 GF    1.055705 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.736e-02 s    7.699258 GF    1.049644 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.871e-02 s    7.553111 GF    1.029719 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.837e-02 s    7.588325 GF    1.034520 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.705e-02 s    7.737501 GF    1.054857 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.704e-02 s    7.737831 GF    1.054902 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.700e-02 s    7.742783 GF    1.055577 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.694e-02 s    7.746143 GF    1.056035 MEq/s
+Q2 G[   16   16   32] P[  1  1  7]  6.706e-02 s    7.737364 GF    1.054839 MEq/s
+[0]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[0]PETSC ERROR: Arguments are incompatible
+[0]PETSC ERROR: Grid 2,3,4 reached on P[1 1 2], try increasing cmax 192 or global grid to coarsen processes sooner
+[0]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[0]PETSC ERROR: Petsc Development GIT revision: v3.6.1-1137-gb19ca9c  GIT Date: 2015-09-28 11:20:58 -0500
+[0]PETSC ERROR: /opt/hpgmg/arm64/bin/hpgmg-fe on a arm64 named head.hpc-dev.utahstud-pg0.utah.cloudlab.us by root Sat Oct  3 14:00:18 2015
+[0]PETSC ERROR: Configure options --with-debugging=0 --prefix=/opt/petsc --download-f2cblaslapack=1 --with-shared-libraries=0
+[0]PETSC ERROR: #1 GridCreate() line 182 in /opt/hpgmg/finite-element/grid.c
+[0]PETSC ERROR: #2 GridCreate() line 204 in /opt/hpgmg/finite-element/grid.c
+[0]PETSC ERROR: #3 GridCreate() line 204 in /opt/hpgmg/finite-element/grid.c
+[0]PETSC ERROR: #4 GridCreate() line 198 in /opt/hpgmg/finite-element/grid.c
+[0]PETSC ERROR: #5 SampleOnGrid() line 156 in /opt/hpgmg/finite-element/sampler.c
+[0]PETSC ERROR: #6 RunSample() line 246 in /opt/hpgmg/finite-element/sampler.c
+[0]PETSC ERROR: #7 main() line 67 in /opt/hpgmg/finite-element/fefas.c
+[0]PETSC ERROR: PETSc Option Table entries:
+[0]PETSC ERROR: -local 1e3
+[0]PETSC ERROR: -op_type poisson2
+[0]PETSC ERROR: -repeat 100
+[0]PETSC ERROR: ----------------End of Error Message -------send entire error message to petsc-maint@mcs.anl.gov----------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD 
+with errorcode 75.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[2]PETSC ERROR: ------------------------------------------------------------------------
+[2]PETSC ERROR: Caught signal number 15 Terminate: Some process (or the batch system) has told this process to end
+[2]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[2]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[2]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[2]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[2]PETSC ERROR: to get more information on the crash.
+[2]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[2]PETSC ERROR: Signal received
+[2]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[2]PETSC ERROR: Petsc Development GIT revision: v3.6.1-1137-gb19ca9c  GIT Date: 2015-09-28 11:20:58 -0500
+[2]PETSC ERROR: /opt/hpgmg/arm64/bin/hpgmg-fe on a arm64 named head.hpc-dev.utahstud-pg0.utah.cloudlab.us by root Sat Oct  3 14:00:18 2015
+[2]PETSC ERROR: Configure options --with-debugging=0 --prefix=/opt/petsc --download-f2cblaslapack=1 --with-shared-libraries=0
+[2]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[3]PETSC ERROR: ------------------------------------------------------------------------
+[3]PETSC ERROR: Caught signal number 15 Terminate: Some process (or the batch system) has told this process to end
+[3]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[3]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[3]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[3]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[3]PETSC ERROR: to get more information on the crash.
+[3]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[3]PETSC ERROR: Signal received
+[3]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[3]PETSC ERROR: Petsc Development GIT revision: v3.6.1-1137-gb19ca9c  GIT Date: 2015-09-28 11:20:58 -0500
+[3]PETSC ERROR: /opt/hpgmg/arm64/bin/hpgmg-fe on a arm64 named head.hpc-dev.utahstud-pg0.utah.cloudlab.us by root Sat Oct  3 14:00:18 2015
+[3]PETSC ERROR: Configure options --with-debugging=0 --prefix=/opt/petsc --download-f2cblaslapack=1 --with-shared-libraries=0
+[3]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[4]PETSC ERROR: ------------------------------------------------------------------------
+[4]PETSC ERROR: Caught signal number 15 Terminate: Some process (or the batch system) has told this process to end
+[4]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[4]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[4]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[4]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[4]PETSC ERROR: to get more information on the crash.
+[4]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[4]PETSC ERROR: Signal received
+[4]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[4]PETSC ERROR: Petsc Development GIT revision: v3.6.1-1137-gb19ca9c  GIT Date: 2015-09-28 11:20:58 -0500
+[4]PETSC ERROR: /opt/hpgmg/arm64/bin/hpgmg-fe on a arm64 named head.hpc-dev.utahstud-pg0.utah.cloudlab.us by root Sat Oct  3 14:00:18 2015
+[4]PETSC ERROR: Configure options --with-debugging=0 --prefix=/opt/petsc --download-f2cblaslapack=1 --with-shared-libraries=0
+[4]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[5]PETSC ERROR: ------------------------------------------------------------------------
+[5]PETSC ERROR: Caught signal number 15 Terminate: Some process (or the batch system) has told this process to end
+[5]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[5]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[5]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[5]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[5]PETSC ERROR: to get more information on the crash.
+[5]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[5]PETSC ERROR: Signal received
+[5]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[5]PETSC ERROR: Petsc Development GIT revision: v3.6.1-1137-gb19ca9c  GIT Date: 2015-09-28 11:20:58 -0500
+[5]PETSC ERROR: /opt/hpgmg/arm64/bin/hpgmg-fe on a arm64 named head.hpc-dev.utahstud-pg0.utah.cloudlab.us by root Sat Oct  3 14:00:18 2015
+[5]PETSC ERROR: Configure options --with-debugging=0 --prefix=/opt/petsc --download-f2cblaslapack=1 --with-shared-libraries=0
+[5]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[6]PETSC ERROR: ------------------------------------------------------------------------
+[6]PETSC ERROR: Caught signal number 15 Terminate: Some process (or the batch system) has told this process to end
+[6]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[6]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[6]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[6]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[6]PETSC ERROR: to get more information on the crash.
+[6]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[6]PETSC ERROR: Signal received
+[6]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[6]PETSC ERROR: Petsc Development GIT revision: v3.6.1-1137-gb19ca9c  GIT Date: 2015-09-28 11:20:58 -0500
+[6]PETSC ERROR: /opt/hpgmg/arm64/bin/hpgmg-fe on a arm64 named head.hpc-dev.utahstud-pg0.utah.cloudlab.us by root Sat Oct  3 14:00:18 2015
+[6]PETSC ERROR: Configure options --with-debugging=0 --prefix=/opt/petsc --download-f2cblaslapack=1 --with-shared-libraries=0
+[6]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[1]PETSC ERROR: ------------------------------------------------------------------------
+[1]PETSC ERROR: Caught signal number 15 Terminate: Some process (or the batch system) has told this process to end
+[1]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[1]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[1]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[1]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[1]PETSC ERROR: to get more information on the crash.
+[1]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[1]PETSC ERROR: Signal received
+[1]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[1]PETSC ERROR: Petsc Development GIT revision: v3.6.1-1137-gb19ca9c  GIT Date: 2015-09-28 11:20:58 -0500
+[1]PETSC ERROR: /opt/hpgmg/arm64/bin/hpgmg-fe on a arm64 named head.hpc-dev.utahstud-pg0.utah.cloudlab.us by root Sat Oct  3 14:00:18 2015
+[1]PETSC ERROR: Configure options --with-debugging=0 --prefix=/opt/petsc --download-f2cblaslapack=1 --with-shared-libraries=0
+[1]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[head.hpc-dev.utahstud-pg0.utah.cloudlab.us:31019] 6 more processes have sent help message help-mpi-api.txt / mpi-abort
+[head.hpc-dev.utahstud-pg0.utah.cloudlab.us:31019] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

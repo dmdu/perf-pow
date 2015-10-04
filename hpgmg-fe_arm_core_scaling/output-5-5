@@ -1,0 +1,91 @@
+Finite Element FAS Performance Sampler on process grid [1 1 5] = 5
+Max memory per MPI rank: 0.007873 GB
+Small Test G[   16   16   16]
+Q2 G[   16   16   16] P[  1  1  5]  5.802e-02 s    4.479803 GF    0.619378 MEq/s
+Large Test G[   32   32   48]
+[0]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[0]PETSC ERROR: Arguments are incompatible
+[0]PETSC ERROR: Grid 2,2,3 reached on P[1 1 2], try increasing cmax 192 or global grid to coarsen processes sooner
+[0]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[0]PETSC ERROR: Petsc Development GIT revision: v3.6.1-1137-gb19ca9c  GIT Date: 2015-09-28 11:20:58 -0500
+[0]PETSC ERROR: /opt/hpgmg/arm64/bin/hpgmg-fe on a arm64 named head.hpc-dev.utahstud-pg0.utah.cloudlab.us by root Sat Oct  3 13:28:07 2015
+[0]PETSC ERROR: Configure options --with-debugging=0 --prefix=/opt/petsc --download-f2cblaslapack=1 --with-shared-libraries=0
+[0]PETSC ERROR: #1 GridCreate() line 182 in /opt/hpgmg/finite-element/grid.c
+[0]PETSC ERROR: #2 GridCreate() line 204 in /opt/hpgmg/finite-element/grid.c
+[0]PETSC ERROR: #3 GridCreate() line 204 in /opt/hpgmg/finite-element/grid.c
+[0]PETSC ERROR: #4 GridCreate() line 198 in /opt/hpgmg/finite-element/grid.c
+[0]PETSC ERROR: #5 GridCreate() line 198 in /opt/hpgmg/finite-element/grid.c
+[0]PETSC ERROR: #6 SampleOnGrid() line 156 in /opt/hpgmg/finite-element/sampler.c
+[0]PETSC ERROR: #7 RunSample() line 240 in /opt/hpgmg/finite-element/sampler.c
+[0]PETSC ERROR: #8 main() line 67 in /opt/hpgmg/finite-element/fefas.c
+[0]PETSC ERROR: PETSc Option Table entries:
+[0]PETSC ERROR: -local 1e3
+[0]PETSC ERROR: -op_type poisson2
+[0]PETSC ERROR: -repeat 100
+[0]PETSC ERROR: ----------------End of Error Message -------send entire error message to petsc-maint@mcs.anl.gov----------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD 
+with errorcode 75.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[4]PETSC ERROR: ------------------------------------------------------------------------
+[4]PETSC ERROR: Caught signal number 15 Terminate: Some process (or the batch system) has told this process to end
+[4]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[4]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[4]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[4]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[4]PETSC ERROR: to get more information on the crash.
+[4]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[4]PETSC ERROR: Signal received
+[4]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[4]PETSC ERROR: Petsc Development GIT revision: v3.6.1-1137-gb19ca9c  GIT Date: 2015-09-28 11:20:58 -0500
+[4]PETSC ERROR: /opt/hpgmg/arm64/bin/hpgmg-fe on a arm64 named head.hpc-dev.utahstud-pg0.utah.cloudlab.us by root Sat Oct  3 13:28:07 2015
+[4]PETSC ERROR: Configure options --with-debugging=0 --prefix=/opt/petsc --download-f2cblaslapack=1 --with-shared-libraries=0
+[4]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[1]PETSC ERROR: ------------------------------------------------------------------------
+[1]PETSC ERROR: Caught signal number 15 Terminate: Some process (or the batch system) has told this process to end
+[1]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[1]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[1]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[1]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[1]PETSC ERROR: to get more information on the crash.
+[1]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[1]PETSC ERROR: Signal received
+[1]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[1]PETSC ERROR: Petsc Development GIT revision: v3.6.1-1137-gb19ca9c  GIT Date: 2015-09-28 11:20:58 -0500
+[1]PETSC ERROR: /opt/hpgmg/arm64/bin/hpgmg-fe on a arm64 named head.hpc-dev.utahstud-pg0.utah.cloudlab.us by root Sat Oct  3 13:28:07 2015
+[1]PETSC ERROR: Configure options --with-debugging=0 --prefix=/opt/petsc --download-f2cblaslapack=1 --with-shared-libraries=0
+[1]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[2]PETSC ERROR: ------------------------------------------------------------------------
+[2]PETSC ERROR: Caught signal number 15 Terminate: Some process (or the batch system) has told this process to end
+[2]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[2]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[2]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[2]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[2]PETSC ERROR: to get more information on the crash.
+[2]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[2]PETSC ERROR: Signal received
+[2]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[2]PETSC ERROR: Petsc Development GIT revision: v3.6.1-1137-gb19ca9c  GIT Date: 2015-09-28 11:20:58 -0500
+[2]PETSC ERROR: /opt/hpgmg/arm64/bin/hpgmg-fe on a arm64 named head.hpc-dev.utahstud-pg0.utah.cloudlab.us by root Sat Oct  3 13:28:07 2015
+[2]PETSC ERROR: Configure options --with-debugging=0 --prefix=/opt/petsc --download-f2cblaslapack=1 --with-shared-libraries=0
+[2]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[3]PETSC ERROR: ------------------------------------------------------------------------
+[3]PETSC ERROR: Caught signal number 15 Terminate: Some process (or the batch system) has told this process to end
+[3]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[3]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[3]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[3]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[3]PETSC ERROR: to get more information on the crash.
+[3]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[3]PETSC ERROR: Signal received
+[3]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[3]PETSC ERROR: Petsc Development GIT revision: v3.6.1-1137-gb19ca9c  GIT Date: 2015-09-28 11:20:58 -0500
+[3]PETSC ERROR: /opt/hpgmg/arm64/bin/hpgmg-fe on a arm64 named head.hpc-dev.utahstud-pg0.utah.cloudlab.us by root Sat Oct  3 13:28:07 2015
+[3]PETSC ERROR: Configure options --with-debugging=0 --prefix=/opt/petsc --download-f2cblaslapack=1 --with-shared-libraries=0
+[3]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[head.hpc-dev.utahstud-pg0.utah.cloudlab.us:22906] 4 more processes have sent help message help-mpi-api.txt / mpi-abort
+[head.hpc-dev.utahstud-pg0.utah.cloudlab.us:22906] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
