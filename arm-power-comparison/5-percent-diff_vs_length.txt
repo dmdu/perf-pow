@@ -1,0 +1,42 @@
+Length of selection interval: 511.759399891 seconds
+Difference in cumulative power at the end of the selected interval: 9.73725237014%
+Length of selection interval: 511.759399891 seconds
+Difference in cumulative power at the end of the selected interval: 10.4923455907%
+Length of selection interval: 511.759399891 seconds
+Difference in cumulative power at the end of the selected interval: 0.181234512031%
+Length of selection interval: 511.759400129 seconds
+Difference in cumulative power at the end of the selected interval: 0.949899916607%
+Length of selection interval: 511.759399891 seconds
+Difference in cumulative power at the end of the selected interval: 7.10411634952%
+Length of selection interval: 511.759399891 seconds
+Difference in cumulative power at the end of the selected interval: 10.9806706386%
+Length of selection interval: 511.759399891 seconds
+Difference in cumulative power at the end of the selected interval: 9.57163693047%
+Length of selection interval: 511.759400129 seconds
+Difference in cumulative power at the end of the selected interval: 0.750383430722%
+Length of selection interval: 511.759400129 seconds
+Difference in cumulative power at the end of the selected interval: 4.61389360042%
+Length of selection interval: 511.759399891 seconds
+Difference in cumulative power at the end of the selected interval: 4.56812888141%
+Length of selection interval: 511.759399891 seconds
+Difference in cumulative power at the end of the selected interval: 1.67601853959%
+Length of selection interval: 511.759400129 seconds
+Difference in cumulative power at the end of the selected interval: 2.23883102937%
+Length of selection interval: 511.759400129 seconds
+Difference in cumulative power at the end of the selected interval: 2.71634071736%
+Length of selection interval: 511.759399891 seconds
+Difference in cumulative power at the end of the selected interval: 1.20456808311%
+Length of selection interval: 511.759399891 seconds
+Difference in cumulative power at the end of the selected interval: 2.63686765764%
+Length of selection interval: 511.759400129 seconds
+Difference in cumulative power at the end of the selected interval: 1.76746152607%
+Length of selection interval: 511.759400129 seconds
+Difference in cumulative power at the end of the selected interval: 1.67924198551%
+Length of selection interval: 511.759399891 seconds
+Difference in cumulative power at the end of the selected interval: 0.114152932897%
+Length of selection interval: 511.759399891 seconds
+Difference in cumulative power at the end of the selected interval: 5.14980010742%
+Length of selection interval: 511.759400129 seconds
+Difference in cumulative power at the end of the selected interval: 11.7870164683%
+Length of selection interval: 511.759400129 seconds
+Difference in cumulative power at the end of the selected interval: 1.62061415761%

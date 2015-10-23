@@ -1,0 +1,3 @@
+Run and show the produced graph:
+
+Rscript power-diff-graph.r ; open ../arm-power-comparison/diff_vs_length.png

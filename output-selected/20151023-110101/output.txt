@@ -1,0 +1,6 @@
+Processed CM data: 565 power samples
+Processed NO data: 4619 power samples
+Start of selection interval (epoch): 1443894438.04
+End of selection interval (epoch): 1443904673.23
+Length of selection interval: 10235.188 seconds
+Difference in cumulative power at the end of the selected interval: 0.109866066798%

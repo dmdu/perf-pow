@@ -1,0 +1,27 @@
+Single experiment:
+
+python power-compare.py --cm ../arm-hpgmg_fe-core_scaling/local_1e3-no_log_summary/504.csv --node ../arm-hpgmg_fe-core_scaling/local_1e3-no_log_summary/ms0128.utah.cloudlab.us.log --select_overlap --start 30 --end 50 --no_display
+
+Example of batch processing:
+
+for s in `seq 0 10 80`; do e=$((s+20)) ; python power-compare.py --cm ../arm-hpgmg_fe-core_scaling/local_1e3-no_log_summary/504.csv --node ../arm-hpgmg_fe-core_scaling/local_1e3-no_log_summary/ms0128.utah.cloudlab.us.log --select_overlap --start $s --end $e --no_display ; done >> ../arm-power-comparison/20-percent.raw
+
+See how many measurements are obtained:
+
+cat ../arm-power-comparison/2-percent.raw | grep Difference | wc -l
+
+Process raw results:
+
+cat ../arm-power-comparison/20-percent.raw | grep -E "Difference|Length" >> ../arm-power-comparison/20-percent-diff_vs_length.txt
+
+# Process all output files in order to create a dataset in the csv format:
+
+cat ../arm-power-comparison/*.txt | while read line ; do if [[ $line == *"Difference"* ]]; then echo -n $line | sed "s/.*:\ //g" | sed "s/%//g" ; fi ; if [[ $line == *"Length"* ]]; then echo -n $line | sed "s/.*:\ //g" | sed "s/\ .*//g" | tr '\n' ',' ; fi  ; done | sort -n
+
+# Find unique factors - levels in the length of intervals
+cat ../arm-power-comparison/diff_vs_length.csv | sed "s/\..*,/,/g" | cut -d, -f1 | uniq
+
+# Round the length:
+
+mv ../arm-power-comparison/diff_vs_length.csv ../arm-power-comparison/diff_vs_length.raw
+cat ../arm-power-comparison/diff_vs_length.raw | sed "s/\..*,/,/g" > ../arm-power-comparison/diff_vs_length.csv

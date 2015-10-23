@@ -1,0 +1,160 @@
+Finite Element FAS Performance Sampler on process grid [1 1 1] = 1
+Max memory per MPI rank: 0.006586 GB
+Small Test G[    8   12   12]
+Q2 G[    8   12   12] P[  1  1  1]  5.723e-02 s    1.384035 GF    0.185648 MEq/s
+Large Test G[   16   24   24]
+Q2  0 e_max 2.83e-01(0.0) e_L2 2.44e-01(0.0) r_2 1.43e-13(0.0) G[    2    3    3] L[   2   3   3] P[  1  1  1]
+Q2  1 e_max 6.28e-02(2.2) e_L2 3.64e-02(2.7) r_2 7.50e-03(0.0) G[    4    6    6] L[   4   6   6] P[  1  1  1]
+Q2  2 e_max 8.56e-03(2.9) e_L2 4.81e-03(2.9) r_2 3.73e-03(1.0) G[    8   12   12] L[   8  12  12] P[  1  1  1]
+Q2  3 e_max 1.10e-03(3.0) e_L2 6.07e-04(3.0) r_2 1.59e-03(1.2) G[   16   24   24] L[  16  24  24] P[  1  1  1]
+Q2 G[   16   24   24] P[  1  1  1]  5.806e-01 s    1.324041 GF    0.136457 MEq/s
+Max memory per MPI rank: 0.022884 GB
+Starting performance sampling
+Q2 G[    8   12   12] P[  1  1  1]  5.671e-02 s    1.396795 GF    0.187360 MEq/s
+Q2 G[    8   12   12] P[  1  1  1]  5.648e-02 s    1.402139 GF    0.188127 MEq/s
+Q2 G[    8   12   12] P[  1  1  1]  5.625e-02 s    1.407767 GF    0.188882 MEq/s
+Q2 G[    8   12   12] P[  1  1  1]  5.652e-02 s    1.401169 GF    0.187997 MEq/s
+Q2 G[    8   12   12] P[  1  1  1]  5.654e-02 s    1.400672 GF    0.187930 MEq/s
+Q2 G[    8   12   16] P[  1  1  1]  7.493e-02 s    1.410547 GF    0.187165 MEq/s
+Q2 G[    8   12   16] P[  1  1  1]  7.454e-02 s    1.417664 GF    0.188159 MEq/s
+Q2 G[    8   12   16] P[  1  1  1]  7.462e-02 s    1.416124 GF    0.187955 MEq/s
+Q2 G[    8   12   16] P[  1  1  1]  7.527e-02 s    1.403861 GF    0.186327 MEq/s
+Q2 G[    8   12   16] P[  1  1  1]  7.469e-02 s    1.414782 GF    0.187776 MEq/s
+Q2 G[   12   12   16] P[  1  1  1]  1.122e-01 s    1.421662 GF    0.183811 MEq/s
+Q2 G[   12   12   16] P[  1  1  1]  1.115e-01 s    1.430498 GF    0.185001 MEq/s
+Q2 G[   12   12   16] P[  1  1  1]  1.115e-01 s    1.429804 GF    0.184911 MEq/s
+Q2 G[   12   12   16] P[  1  1  1]  1.114e-01 s    1.431447 GF    0.185124 MEq/s
+Q2 G[   12   12   16] P[  1  1  1]  1.114e-01 s    1.431012 GF    0.185067 MEq/s
+Q2 G[   16   16   16] P[  1  1  1]  1.833e-01 s    1.416168 GF    0.196050 MEq/s
+Q2 G[   16   16   16] P[  1  1  1]  1.817e-01 s    1.428385 GF    0.197796 MEq/s
+Q2 G[   16   16   16] P[  1  1  1]  1.814e-01 s    1.430698 GF    0.198117 MEq/s
+Q2 G[   16   16   16] P[  1  1  1]  1.814e-01 s    1.430574 GF    0.198099 MEq/s
+Q2 G[   16   16   16] P[  1  1  1]  1.827e-01 s    1.420418 GF    0.196693 MEq/s
+Q2 G[   16   16   24] P[  1  1  1]  2.752e-01 s    1.425395 GF    0.193867 MEq/s
+Q2 G[   16   16   24] P[  1  1  1]  2.739e-01 s    1.431832 GF    0.194796 MEq/s
+Q2 G[   16   16   24] P[  1  1  1]  2.732e-01 s    1.435548 GF    0.195301 MEq/s
+Q2 G[   16   16   24] P[  1  1  1]  2.731e-01 s    1.436152 GF    0.195384 MEq/s
+Q2 G[   16   16   24] P[  1  1  1]  2.728e-01 s    1.437880 GF    0.195619 MEq/s
+Q2 G[   16   24   24] P[  1  1  1]  4.174e-01 s    1.415913 GF    0.189831 MEq/s
+Q2 G[   16   24   24] P[  1  1  1]  4.137e-01 s    1.427997 GF    0.191502 MEq/s
+Q2 G[   16   24   24] P[  1  1  1]  4.132e-01 s    1.429985 GF    0.191769 MEq/s
+Q2 G[   16   24   24] P[  1  1  1]  4.143e-01 s    1.426157 GF    0.191255 MEq/s
+Q2 G[   16   24   24] P[  1  1  1]  4.135e-01 s    1.428912 GF    0.191625 MEq/s
+
+---------------------------------------------- PETSc Performance Summary: ----------------------------------------------
+
+/opt/hpgmg/arm64/bin/hpgmg-fe on a arm64 named head.hpc-dev.utahstud-pg0.utah.cloudlab.us with 1 processor
+Using Petsc Development GIT revision: v3.6.1-1137-gb19ca9c  GIT Date: 2015-09-28 11:20:58 -0500
+
+                         Max       Max/Min        Avg      Total 
+Time (sec):           9.031e+00      1.00000   9.031e+00
+Objects:              9.190e+02      1.00000   9.190e+02
+Flops:                1.336e+10      1.00000   1.336e+10  1.336e+10
+Flops/sec:            1.479e+09      1.00000   1.479e+09  1.479e+09
+MPI Messages:         7.775e+02      1.00000   7.775e+02  7.775e+02
+MPI Message Lengths:  9.816e+06      1.00000   1.263e+04  9.816e+06
+MPI Reductions:       0.000e+00      0.00000
+
+Flop counting convention: 1 flop = 1 real number operation of type (multiply/divide/add/subtract)
+                            e.g., VecAXPY() for real vectors of length N --> 2N flops
+                            and VecAXPY() for complex vectors of length N --> 8N flops
+
+Summary of Stages:   ----- Time ------  ----- Flops -----  --- Messages ---  -- Message Lengths --  -- Reductions --
+                        Avg     %Total     Avg     %Total   counts   %Total     Avg         %Total   counts   %Total 
+ 0:      Main Stage: 9.0305e+00 100.0%  1.3356e+10 100.0%  7.775e+02 100.0%  1.263e+04      100.0%  0.000e+00   0.0% 
+
+------------------------------------------------------------------------------------------------------------------------
+See the 'Profiling' chapter of the users' manual for details on interpreting output.
+Phase summary info:
+   Count: number of times phase was executed
+   Time and Flops: Max - maximum over all processors
+                   Ratio - ratio of maximum to minimum over all processors
+   Mess: number of messages sent
+   Avg. len: average message length (bytes)
+   Reduct: number of global reductions
+   Global: entire computation
+   Stage: stages of a computation. Set stages with PetscLogStagePush() and PetscLogStagePop().
+      %T - percent time in this phase         %F - percent flops in this phase
+      %M - percent messages in this phase     %L - percent message lengths in this phase
+      %R - percent reductions in this phase
+   Total Mflop/s: 10e-6 * (sum of flops over all processors)/(max time over all processors)
+------------------------------------------------------------------------------------------------------------------------
+Event                Count      Time (sec)     Flops                             --- Global ---  --- Stage ---   Total
+                   Max Ratio  Max     Ratio   Max  Ratio  Mess   Avg len Reduct  %T %F %M %L %R  %T %F %M %L %R Mflop/s
+------------------------------------------------------------------------------------------------------------------------
+
+--- Event Stage 0: Main Stage
+
+OpRestrictState      164 1.0 9.3381e-03 1.0 0.00e+00 0.0 2.0e+02 9.7e+03 0.0e+00  0  0 25 19  0   0  0 25 19  0     0
+OpRestrictResid      249 1.0 1.2706e-01 1.0 1.50e+07 1.0 2.8e+02 1.2e+04 0.0e+00  1  0 36 34  0   1  0 36 34  0   118
+OpInterpolate        249 1.0 1.4636e-01 1.0 1.50e+07 1.0 2.5e+02 1.3e+04 0.0e+00  2  0 32 32  0   2  0 32 32  0   103
+OpForcing              8 1.0 2.7628e-01 1.0 2.62e+08 1.0 0.0e+00 0.0e+00 0.0e+00  3  2  0  0  0   3  2  0  0  0   947
+OpIntegNorms           4 1.0 9.6101e-02 1.0 7.88e+07 1.0 0.0e+00 0.0e+00 0.0e+00  1  1  0  0  0   1  1  0  0  0   820
+OpGetDiagonal         29 1.0 2.2395e+00 1.0 4.31e+09 1.0 0.0e+00 0.0e+00 0.0e+00 25 32  0  0  0  25 32  0  0  0  1925
+SFSetGraph           142 1.0 8.2870e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+SFBcastBegin        2802 1.0 2.0491e-02 1.0 0.00e+00 0.0 2.5e+02 1.3e+04 0.0e+00  0  0 32 32  0   0  0 32 32  0     0
+SFBcastEnd          2802 1.0 1.3638e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+SFReduceBegin       2999 1.0 3.3650e-02 1.0 0.00e+00 0.0 5.3e+02 1.3e+04 0.0e+00  0  0 68 68  0   0  0 68 68  0     0
+SFReduceEnd         2999 1.0 1.8828e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+BuildTwoSided        113 1.0 3.2790e-03 1.0 0.00e+00 0.0 3.2e+01 4.0e+00 0.0e+00  0  0  4  0  0   0  0  4  0  0     0
+VecDot               117 1.0 1.7786e-04 1.0 5.15e+04 1.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0   290
+VecTDot             2963 1.0 2.9533e-03 1.0 1.64e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0   556
+VecNorm               97 1.0 1.4558e-03 1.0 1.16e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0   796
+VecCopy              445 1.0 1.7042e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet              6231 1.0 2.3362e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecAXPY             3174 1.0 8.0194e-03 1.0 5.08e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0   634
+VecAYPX             2575 1.0 4.5974e-02 1.0 1.46e+07 1.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   1  0  0  0  0   319
+VecAXPBYCZ           328 1.0 1.6525e-02 1.0 1.53e+07 1.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0   927
+VecPointwiseMult    2342 1.0 4.0013e-02 1.0 6.93e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0   173
+MatMult             2196 1.0 4.4291e+00 1.0 6.73e+09 1.0 0.0e+00 0.0e+00 0.0e+00 49 50  0  0  0  49 50  0  0  0  1519
+KSPSetUp              29 1.0 3.7973e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve             445 1.0 4.5492e+00 1.0 6.76e+09 1.0 0.0e+00 0.0e+00 0.0e+00 50 51  0  0  0  50 51  0  0  0  1487
+PCSetUp               29 1.0 1.8358e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+PCApply             2342 1.0 2.2871e+00 1.0 4.32e+09 1.0 0.0e+00 0.0e+00 0.0e+00 25 32  0  0  0  25 32  0  0  0  1888
+------------------------------------------------------------------------------------------------------------------------
+
+Memory usage is given in bytes:
+
+Object Type          Creations   Destructions     Memory  Descendants' Mem.
+Reports information only for process 0.
+
+--- Event Stage 0: Main Stage
+
+Star Forest Bipartite Graph   258            258       212728     0
+              Vector   457            457     45971776     0
+              Matrix    29             29        83288     0
+    Distributed Mesh    58             58       261696     0
+     Discrete System    58             58        49184     0
+       Krylov Solver    29             29        35936     0
+      Preconditioner    29             29        24592     0
+              Viewer     1              0            0     0
+========================================================================================================================
+Average time to get PetscTime(): 9.53674e-08
+#PETSc Option Table entries:
+-local 1e3
+-log_summary
+-op_type poisson2
+#End of PETSc Option Table entries
+Compiled without FORTRAN kernels
+Compiled with full precision matrices (default)
+sizeof(short) 2 sizeof(int) 4 sizeof(long) 8 sizeof(void*) 8 sizeof(PetscScalar) 8 sizeof(PetscInt) 4
+Configure options: --with-debugging=0 --prefix=/opt/petsc --download-f2cblaslapack=1 --with-shared-libraries=0
+-----------------------------------------
+Libraries compiled on Tue Sep 29 11:48:00 2015 on head.hpgmg-gcc520.utahstud-pg0.utah.cloudlab.us 
+Machine characteristics: Linux-3.13.0-40-generic-aarch64-with-Ubuntu-14.04-trusty
+Using PETSc directory: /opt/petsc-src
+Using PETSc arch: arm64
+-----------------------------------------
+
+Using C compiler: mpicc   -Wall -Wwrite-strings -Wno-strict-aliasing -Wno-unknown-pragmas -g -O  ${COPTFLAGS} ${CFLAGS}
+Using Fortran compiler: mpif90  -Wall -Wno-unused-variable -ffree-line-length-0 -Wno-unused-dummy-argument -g -O   ${FOPTFLAGS} ${FFLAGS} 
+-----------------------------------------
+
+Using include paths: -I/opt/petsc-src/arm64/include -I/opt/petsc-src/include -I/opt/petsc-src/include -I/opt/petsc-src/arm64/include -I/opt/openmpi/include
+-----------------------------------------
+
+Using C linker: mpicc
+Using Fortran linker: mpif90
+Using libraries: -Wl,-rpath,/opt/petsc-src/arm64/lib -L/opt/petsc-src/arm64/lib -lpetsc -Wl,-rpath,/opt/petsc/lib -L/opt/petsc/lib -lf2clapack -lf2cblas -lm -lssl -lcrypto -lm -L/opt/openmpi/lib -L/opt/gcc520/lib/gcc/aarch64-unknown-linux-gnu/5.2.0 -L/opt/gcc520/lib/gcc -L/opt/gcc520/lib64 -L/lib/aarch64-linux-gnu -L/usr/lib/aarch64-linux-gnu -L/opt/gcc520/lib -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lgfortran -lm -Wl,-rpath,/opt/openmpi/lib -lgfortran -lm -lmpi_cxx -lstdc++ -L/opt/openmpi/lib -L/opt/gcc520/lib/gcc/aarch64-unknown-linux-gnu/5.2.0 -L/opt/gcc520/lib/gcc -L/opt/gcc520/lib64 -L/lib/aarch64-linux-gnu -L/usr/lib/aarch64-linux-gnu -L/opt/gcc520/lib -ldl -Wl,-rpath,/opt/openmpi/lib -lmpi -lgcc_s -lpthread -ldl 
+-----------------------------------------
+
