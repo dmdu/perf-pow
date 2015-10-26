@@ -1,11 +1,15 @@
 library('ggplot2')
 
 input = "../arm-power-comparison/diff_vs_length.csv"
-output = "../arm-power-comparison/diff_vs_length.png"
+#output = "../arm-power-comparison/diff_vs_length.png"
+output = "../plot.png"
 
 df = read.csv(input)
 # Columns in df: Seconds, Difference
 summary(df)
+
+aggregate(df$Difference, list(Seconds=df$Seconds), mean)
+aggregate(df$Difference, list(Seconds=df$Seconds), sd)
 
 # WORKS BUT INAPPROPRIATE: Polynomial regression: fit and confidence band
 #qplot(Seconds, Difference, data=df, geom=c("point", "smooth"), method="lm", formula= y ~ poly(x, 2)) + xlab("Length of interval with compared samples, Seconds") + ylab("Difference between cumulative CM and on-node power, %")
